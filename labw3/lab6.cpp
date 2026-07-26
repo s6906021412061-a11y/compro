@@ -7,7 +7,7 @@ int main(){
     cout <<"Enter hight : ";
     cin >>height;
 
-    cout <<" You are : "<<(height > 160?" adult":"kid ")<<endl;
-    cout <<"Totol price : "<<(height > 160 ? price : price /2 )<<endl;
+    cout <<" You are : "<<(height > 150?" adult":"kid ")<<endl;
+    cout <<"Totol price : "<<(height > 150 ? price : price /2 )<<endl;
     return(0);
 }
