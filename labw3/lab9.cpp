@@ -12,6 +12,7 @@ int main(){
 
     //case1
     tax=price*Tax_rate;
+    total=price+tax;
     cout <<"price of "<<productname<<"="<<price<<endl;
     cout <<"tax(%7) of "<<productname<<"="<<tax<<endl;
     cout <<"total price of"<<productname<<"="<<total<<endl;
